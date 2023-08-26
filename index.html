@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file -->
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portfolio website - Pranabesh Dey</title>
+    <script src="https://kit.fontawesome.com/4be9bf2d39.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- -------Home Section------------ -->
+    <!-- navbar -->
+    <nav class="navbar">
+
+        <a href="#" class="logo">
+            <img src="images/PortfolioLogo.png" class="logoImg">
+        </a>
+
+        <div class="nav_right">
+            <ul class="nav_links">
+                <li><a href="#hero_sec" class="active">Home</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#software">Software</a></li>
+                <li><a href="#myProjects">my Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="theme_btn">
+                <div class="themeBtnToggle">
+                    <img src="img/sun.png" class="themeIcon">
+                </div>
+            </div>
+        </div>
+
+        <div class="toggleMenu">
+            <div class="line line_1"></div>
+            <div class="line line_2"></div>
+            <div class="line line_3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero_sec">
+        <img src="images/removeBgMainHero.png" class="hero_img">
+
+        <div class="hero_content">
+            <h2 class="intro_heading">Hi, My Name Is</h2>
+            <h2 class="name_heading">Pranabesh Dey</h2>
+            <h2 class="skills_heading">I'm a <span class="textTyper"></span></h2>
+
+            <a href="Pranabesh Dey.pdf" download class="hero_btn">Download CV</a>
+        </div>
+    </section>
+    <!-- -----About Section--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col1">
+                    <img src="images/abc.jpg">
+                </div>
+                <div class="about_col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        As a highly motivated and results-driven mechanical
+                        engineer, I possess strong critical thinking skills and a
+                        commitment to continuous learning and growth.
+                        In addition to my technical skills, I possess excellent
+                        communication and interpersonal skills. I am passionate
+                        about positively impacting the world through engineering
+                        and innovation.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link active" onclick="opentab('education')"><strong>Education</strong></p>
+                        <p class="tab-links" onclick="opentab('skills')"><strong>Skills</strong></p>  
+                        <p class="tab-links" onclick="opentab('interests')"><strong>Interests</strong></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>August 2021 - Present [Expected: May 2024]</span><br>Academy of Technology,&nbsp;
+                                Adisaptagram<br>Bachelor of Technology,&nbsp; Mechanical Engineering</li>
+
+                            <li><span>August 2018 - August 2021</span><br>Regent Institute of Science and Technology,
+                                &nbsp;Kolkata<br>Diploma in Mechanical Engineering | OGPA :8.2</li>
+
+                            <li><span>June 2016 - June 2018</span><br>Masat Aptap Mitra High School (WBCHSE)<br>Science
+                                Stream | 60%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <div class="container">
+                            <div class="skills">
+                                <h2>JAVA</h2>
+                                <div class="progress-bar">
+                                    <div class="java"><span>80%</span></div>
+                                </div>
+                                <h2>PYTHON</h2>
+                                <div class="progress-bar">
+                                    <div class="python"><span>60%</span></div>
+                                </div>
+                                <h2>HTML</h2>
+                                <div class="progress-bar">
+                                    <div class="html"><span>75%</span></div>
+                                </div>
+                                <h2>CSS</h2>
+                                <div class="progress-bar">
+                                    <div class="css"><span>65%</span></div>
+                                </div>
+                                <h2>DBMS</h2>
+                                <div class="progress-bar">
+                                    <div class="dbms"><span>75%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>Chess</span><br>Through chess, I challenge my mind and cultivate strategic
+                                thinking, constantly pushing myself to improve.</li>
+                            <li><span>Machine Learning</span><br>Through my final year project, I demonstrated
+                                proficiency in machine learning and a passion for leveraging technology to drive
+                                innovation.</li>
+                            <li><span>Renewable Energy</span><br>My final year project on renewable energy reflects my
+                                dedication to<br>creating a cleaner, more sustainable future through innovative
+                                technology.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------Software section--------------- -->
+    <div id="software">
+        <div class="container">
+            <h1 class="sub-title">Software</h1>
+            <div class="software-list">
+                <div>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>Autodesk AutoCAD</h2>
+                    <p>Proficient in advanced-level AutoCAD skills with hands-on experience in creating 2D/3D designs.Skilled in managing complex projects with AutoCAD toolset.</p>
+                    <a href="#" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <h2>Microsoft Office</h2>
+                    <p>Expert-level Microsoft Office user with extensive experience in Word, Excel, PowerPoint, Outlook.Ability to streamline processes, improve efficiency, and deliver high-quality results.</p>
+                    <a href="#" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Adobe Photoshop</h2>
+                    <p>Proficient in expert-level Adobe Photoshop skills, including photo editing, graphic design, and digital art.Delivering high-quality results with attention to detail.</p>
+                    <a href="#" target="_blank">learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- --------------------my projects-------------- -->
+    <div id="myProjects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/work-1.jpg" alt="work images">
+                    <div class="layer">
+                        <h3>Briquetting Machine</h3>
+                        <p>Conducted parametric optimization for high calorific value and low ash content in briquettes made from agricultural waste, and built a briquetting machine. Demonstrated skills in optimization, engineering, and sustainability.</p>
+                            <a href="" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.jpg" alt="work images">
+                    <div class="layer">
+                        <h3>Elliptical Carrom Board</h3>
+                        <p>Designed and constructed an innovative elliptical carrom board implementing the fascinating property of focus reflection, showcasing skills in physics and product design. The board follows the principle of reflection of focus in ellipse.</p>
+                            <a href="" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.jpg" alt="work images">
+                    <div class="layer">
+                        <h3>Java Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempora nobis enim temporibus dolores molestiae. Temporibus, incidunt. Fugit facere, iste voluptatem porro, placeat assumenda perferendis, suscipit consectetur optio cupiditate laboriosam!</p>
+                            <a href="" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button" target="_blank">See more</a>
+        </div>
+    </div>
+    <!-- ------------------contact section -------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pranabeshdey7@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8609762588</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sagar.dey.39545" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="http://www.linkedin.com/in/pranabeshdey" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/pranabe5253" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://github.com/Pranab0007" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button-submit">Submit</button>
+                    </form>
+                    <span id="messageresponse"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Pranabesh Dey. Made with <i class="fa-solid fa-heart"></i> by Pranabesh.</p>
+    </div>
+    <!-- js file -->
+    <script src="js/app.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbysJOtN8FZtAldi0-mpy9iiNWXplvRmcXc8xauLAk_X4jx0QmKsjE5knXcQeqOvB9Y/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const messageresponse = document.getElementById("messageresponse")
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                messageresponse.innerHTML = 'Message sent successfully.'
+                setTimeout(function(){
+                    messageresponse.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>

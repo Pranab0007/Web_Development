@@ -1,0 +1,189 @@
+@media(max-width: 1100px) {
+
+    #hero_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .hero_img {
+        transform: scale(0.8);
+        margin-top: 20%;
+    }
+    .logo .logoImg {
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 850px) {
+    #hero_sec{
+        margin-top: -130px;
+    }
+    .toggleMenu {
+        display: block;
+    }
+
+    .logo .logoImg {
+        width: 120px;
+    }
+
+    .nav_right {
+        width: 100%;
+        max-width: 450px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        background: var(--white_color);
+        border-left: 1px solid var(--shadow_color);
+        position: fixed;
+        top: 70px;
+        right: -110%;
+        z-index: 99;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav_right.active {
+        right: 0;
+    }
+
+    .nav_links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav_links li {
+        display: flex;
+        width: 100%;
+    }
+
+    .nav_links li a {
+        width: 100%;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 20px;
+    }
+
+    .nav_links li a.active::before,
+    .nav_links li a:hover::before {
+        width: 0%;
+    }
+
+    .nav_links li a.active,
+    .nav_links li a:hover {
+        color: var(--white_color);
+        background: var(--main_color);
+    }
+
+    .hero_sec {
+        gap: 10px;
+    }
+
+    .hero_img {
+        transform: scale(0.6);
+    }
+
+    .intro_heading {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .name_heading {
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    
+    .skills_heading {
+        font-size: 22px;
+        margin-left: 20px;
+        /* overflow: hidden; */
+    }
+    
+    .skills_heading .textTyper {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+    .hero_btn{
+        margin-left: 28%;
+    }
+    /* ------about---- */
+    .sub-title{
+        font-size: 40px;
+    }
+    .about_col1, .about_col2{
+        flex-basis: 100%;
+    }
+    #about{
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+    .about_col1{
+        transform: scale(0.8);
+        margin-left: -5px;
+    }
+    .about_col2{
+        margin-top: -25px;
+        margin-left: 10px;
+    }
+    .about_col2 p{
+        transform: scale(0.9);
+        text-align: justify;
+        margin-left: -20px;
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    .tab-titles p{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    .tab-titles{
+        margin-left: 10px;
+    }
+    .progress-bar{
+        width: 330px;
+    }
+    /* ------software---- */
+    #software{
+        padding: 20px;
+    }
+    .software-list{
+        margin-top: 20px;
+    }
+    /* --------my project----- */
+    #myProjects{
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+    .project-list{
+        margin-top: 30px;
+    }
+    .project{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .button{
+        margin-left: 20%;
+        margin-top: 10px;
+    }
+    /* ------contact----- */
+    #contact{
+        padding-left: 20px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .social-icons a{
+        margin-left: 27px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
